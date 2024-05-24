@@ -37,14 +37,14 @@ def main():
                         help="Challenge length in bits.")
     parser.add_argument("--k", type=int, default=1,
                         help="The number of parallel APUF in the XOR PUF.")
-    parser.add_argument("--train-data", type=int, default=10000,
+    parser.add_argument("--train-data", type=int, default=100000,
                         help="Number of training data samples for the model.")
     parser.add_argument("--auth-CRPs", type=int, default=200,
                         help="Number of CRPs used per authentication query.")
-    parser.add_argument("--searches", type=int, default=10,
+    parser.add_argument("--searches", type=int, default=100,
                         help="Number of sets of CRP for each authentication " +
                         "query to check for modelling accuracy.")
-    parser.add_argument("--threshold", type=float, default=0.9,
+    parser.add_argument("--threshold", type=float, default=0.95,
                         help="Authentication and viability threshold for CRPs.")
     parser.add_argument("--server-predictor", type=str, default="LR",
                         help="The ML algorithm that the authentication " +
