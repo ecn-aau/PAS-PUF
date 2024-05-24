@@ -66,7 +66,7 @@ def main():
     parser.add_argument("--attacker-predictor", type=str, default="LR",
                         help="The ML algorithm that the attacker uses to " +
                         " attempt to model the PUF.")
-    parser.add_argument("--min-auths", type=int, default=5,
+    parser.add_argument("--min-auths", type=int, default=1,
                         help="Minimum number of successful authentications" +
                         "for a prover to be considered authentic.")
     args = parser.parse_args()
