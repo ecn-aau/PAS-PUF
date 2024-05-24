@@ -3,6 +3,10 @@
 Created on Tue Feb 27 10:02:52 2024
 
 @author: Mieszko Ferens
+
+Script to run an experiment for modelling an XOR Arbiter PUF that uses
+predictive random CRP selection during authentication with the server
+with both LR and MLP models on the verifier.
 """
 
 import argparse
