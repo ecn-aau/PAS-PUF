@@ -38,7 +38,7 @@ python3 predictive_multi_random_CRP_test.py
 
 ## How to cite
 
-M. Ferens, E. Dushku, S. Srinivasa, and S. Kosta, "Securing PUFs via a Predictive Adversarial Machine Learning System by Modeling of Attackers," 2024, *unpublished*.
+Anonymous authors, "Securing PUFs via a Predictive Adversarial Machine Learning System by Modeling of Attackers," 2024, *unpublished*.
 
 ## References
 
