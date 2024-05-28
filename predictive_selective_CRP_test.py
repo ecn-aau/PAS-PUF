@@ -6,6 +6,13 @@ Created on Thu Dec 21 13:21:56 2023
 
 Script to run an experiment for modelling an XOR Arbiter PUF that uses
 predictive selective CRP selection during authentication with the server.
+
+Selective CRPs are taken from:
+    M. Ferens, E. Dushku and S. Kosta, "Securing PUFs Against ML Modeling
+    Attacks via an Efficient Challenge-Response Approach," IEEE INFOCOM 2023 -
+    IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS),
+    Hoboken, NJ, USA, 2023, pp. 1-6,
+    doi: 10.1109/INFOCOMWKSHPS57453.2023.10226062.
 """
 
 import argparse
