@@ -35,11 +35,3 @@ To run a simulation were the verifier run both LR and MLP on the PAS use:
 ```
 python3 predictive_multi_random_CRP_test.py
 ```
-
-## How to cite
-
-Anonymous authors, "Securing PUFs via a Predictive Adversarial Machine Learning System by Modeling of Attackers," 2024, *unpublished*.
-
-## References
-
-1. N. Wisiol, C. Gräbnitz, C. Mühl, B. Zengin, T. Soroceanu, N. Pirnay, K. T. Mursi, and A. Baliuka, "pypuf: Cryptanalysis of Physically Unclonable Functions," 2021, version v2. [Online]. Available: https://doi.org/10.5281/zenodo.3901410
